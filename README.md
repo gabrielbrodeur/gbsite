@@ -132,3 +132,235 @@ function hasScrolled() {
 </script>
 
 </html>
+
+@charset "utf-8";
+/* CSS Document */
+
+.nav-down {
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    z-index: 1000;
+}
+
+.nav-up {
+    top: -40px;
+}
+
+.logo {
+	float: left;
+	margin-left: .5em;
+	font-family: Open+Sans; 
+	color: white;
+}
+
+
+.logo h2 {
+	margin-top: -1em;
+	margin-left: 1em;
+	font-family: Open+Sans+Condensed:300;
+}
+
+
+.background {
+	opacity: 0.5;
+	background-image: linear-gradient(-226deg, #29506d 0%, #1768a7 100%);
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	height: 60em;
+	top: 0;
+	left: 0;
+	margin: auto;
+}
+
+.video_container {
+	opacity: 0.7;
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%; 
+	height: 69em;
+	overflow: hidden;
+	overflow-x:hidden;
+	overflow-y:hidden;
+    margin-top: -8em;
+    margin-left: -.5em
+}
+
+.video_container video {
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+	top: 50%;
+	bottom:50%;
+	object-fit: contain;
+}
+
+.source{
+    
+    height: 25em;
+	width: 100%;
+	
+}
+
+.CTA {
+	margin-top: 25em;
+	margin-left: 20em;
+	position: absolute;
+	z-index: 500;
+	width: 40em;
+    height: 10em;
+	padding-right: 0px;
+}
+
+.CTA h2 {
+	font-family: Open+Sans;
+	font-size: 3em;
+}
+
+.CTA h3 {
+	font-family: Roboto;
+	font-size: 2em;
+}
+
+.CTA p {
+    font-family: Open+Sans;
+    font-size: 20px; 
+    text-align: center;
+}
+
+#CTA_button_size {
+    width: 7em;
+    margin-right: 0px;
+}
+.button {
+    opacity: 1.0;
+    transition: opacity 0.2s;
+    margin-top: -15px;
+	padding: 15px 32px;
+	text-decoration: none;
+	color:white;
+	border-radius: 25px;
+    width:auto;
+    background: linear-gradient(to bottom, rgba(57,204,204,1) 0%, rgba(34,122,122,1) 100%);
+   
+}
+
+.button:hover {
+    opacity: 0.5;
+}
+    
+
+
+.menu {
+	float: right;
+	z-index: 1000;
+    
+}
+
+
+ul.menu_list {
+	color: white;
+	list-style: none;
+	display: flex;
+	font-family: sans-serif;
+	margin-top:3em;
+}
+
+
+ul.menu_list li {
+	margin-right: 2em;
+}
+
+.menu_button:hover {
+    text-decoration: underline;
+    text-shadow: 2px;
+}
+
+
+.second_fold {
+    margin-top: 25em;
+	height: 25em;
+	margin:none;	
+	width:100%;
+	top: 0;
+	bottom: 0;
+    background: linear-gradient(to bottom, rgba(57,204,204,1) 50%, rgba(34,122,122,1) 100%);
+    
+}
+
+.img_slider {
+    margin-top: 34.5em;
+	width: 720px;
+	height: 400px;
+	overflow: hidden;
+}
+
+.referrals {
+	list-style: none;
+	display: block;
+	width:6000px;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+}
+
+.referrals img {
+	float: left;
+	height: 20em;
+	width: 20em;
+	border-top-left-radius: 5em;
+	border-bottom-left-radius: 5em;
+    margin-top: 2.5em;
+    
+}
+
+.third-fold {
+    background-color:lightgray; 
+}
+
+.skills {
+	float: left;
+	border: 1px solid black;
+	width: 450px;
+	height: 800px;
+	margin-left: 50px;
+	margin-top: 250px;
+}
+
+
+.skills_links {
+	float: right;
+	border: 1px solid black;
+	width: 950px;
+	height: 800px;
+	margin-top: 300px;
+	margin-right: 50px;
+}
+
+.skills-tabs {
+    width: 400px;   
+    height: 200px; 
+    border: solid black .5px; 
+    margin-left: -2em; 
+    background-image:linear-gradient(-226deg, #c6c6c6, #778899);
+    opacity: 50%; 
+    margin-top: 5px; 
+    
+    
+}
+
+.skills-tabs li {
+    list-style-type: none; 
+    text-align: center; 
+    font-size: 38px; 
+    padding: 90px 0; 
+    font-family: Open+Sans;
+}
+
+.skills-tabs:hover {
+    opacity: 50%; 
+}
